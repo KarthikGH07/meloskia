@@ -18,13 +18,14 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.kimik.meloskia"
+      "bundleIdentifier": "com.kartikhegde.meloskia"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.kartikhegde.meloskia"
     },
     "web": {
       "favicon": "./assets/favicon.png",
@@ -32,6 +33,15 @@
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ad1228c6-6e05-45ff-95ce-5b5cb06d8840"
+      }
+    },
+    "owner": "kartik-hegde"
   }
 }
